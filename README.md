@@ -230,3 +230,10 @@ SecVulEval provided for its own context annotations.
 - **`unchanged` ≠ provably safe.** Untouched functions are assumed non-vulnerable; they may contain undisclosed flaws. Same assumption as prior work.
 - **Yield is language-skewed.** C/C++ dominates NVD's commit-linked CVEs; Java/JS/Python need proportionally more CVEs processed to reach comparable counts.
 - **Multi-commit fixes are excluded**, so vulnerabilities fixed across several commits are under-represented.
+
+## Internship materials
+
+The [original internship overview](research/INTERNSHIP_OVERVIEW.md) and
+[presentations](Presentation/) are preserved from the internship repository.
+The overview records the initial research framing; consult the project report
+for the completed experiments and supported conclusions.
